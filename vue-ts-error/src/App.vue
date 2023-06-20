@@ -4,7 +4,7 @@ import VTest from "@/components/VTest.vue";
 
 <template>
     <main>
-        <v-test email="test" name="test"></v-test>
+        <v-test name="test"></v-test>
     </main>
 </template>
 

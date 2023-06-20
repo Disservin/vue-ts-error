@@ -3,11 +3,7 @@
 </template>
 
 <script setup lang="ts">
-interface Extended extends Test {
-    email: string;
-}
-
-defineProps<Extended>();
+defineProps<Test>();
 </script>
 
 <style scoped></style>
